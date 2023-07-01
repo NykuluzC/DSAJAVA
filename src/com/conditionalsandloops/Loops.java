@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-
         /*
         System.out.println(1);
         System.out.println(2);
@@ -22,5 +20,13 @@ public class Loops {
         for(int z = 0; z < 5; z++){
             System.out.println("Hello World!");
         }
-    }1
+        //For loop with Scanner
+        Scanner s = new Scanner(System.in);
+        System.out.print("Itterate until: ");
+        int max = s.nextInt();
+
+        for(int y = 1; y <= max; y++){
+            System.out.println(y);
+        }
+    }
 }
