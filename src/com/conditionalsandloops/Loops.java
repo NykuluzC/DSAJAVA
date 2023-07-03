@@ -28,5 +28,22 @@ public class Loops {
         for(int y = 1; y <= max; y++){
             System.out.println(y);
         }
+
+        // While loops
+
+        //regular while
+        int whileNum = 1;
+        while(whileNum <= 5){
+            System.out.println(whileNum);
+            whileNum ++;
+        }
+
+        //do-while loop
+
+        int n = 1;
+        do {
+            System.out.println(n);
+            n++;
+        } while(n <= 5);
     }
 }
