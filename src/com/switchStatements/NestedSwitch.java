@@ -11,28 +11,18 @@ public class NestedSwitch {
         System.out.print("Department: ");
         String department = in.next();
 
-        switch (empID){
-            case 1:
-                switch (department.toLowerCase()){
-                    case "it":
-                        System.out.println("***IT Department***");
-                        break;
-                    case "management":
-                        System.out.println("***Management Department***");
-                        break;
-                    default:
-                        System.out.println("***No department or unassigned***");
+        switch (empID) {
+            case 1 -> {
+                switch (department.toLowerCase()) {
+                    case "it" -> System.out.println("***IT Department***");
+                    case "management" -> System.out.println("***Management Department***");
+                    default -> System.out.println("***No department or unassigned***");
                 }
                 System.out.println("Carl Irven Nykuluz Millanes");
-                break;
-            case 2:
-                System.out.println("Ralph Rivera");
-                break;
-            case 3:
-                System.out.println("Jose Hinolan");
-                break;
-            default:
-                System.out.println("Enter correct EmpID");
+            }
+            case 2 -> System.out.println("Ralph Rivera");
+            case 3 -> System.out.println("Jose Hinolan");
+            default -> System.out.println("Enter correct EmpID");
         }
     }
 }
