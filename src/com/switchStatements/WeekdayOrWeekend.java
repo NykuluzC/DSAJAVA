@@ -8,20 +8,10 @@ public class WeekdayOrWeekend {
         System.out.println("What day is it?");
         String day = in.next();
 
-        switch(day.toLowerCase()){
-            case "monday":
-            case "tuesday":
-            case "wednesday":
-            case "thursday":
-            case "friday":
-                System.out.println("Weekdays!");
-                break;
-            case "saturday":
-            case "sunday":
-                System.out.println("Weekends!");
-                break;
-            default:
-                System.out.println("Invalid Day!");
+        switch (day.toLowerCase()) {
+            case "monday", "tuesday", "wednesday", "thursday", "friday" -> System.out.println("Weekdays!");
+            case "saturday", "sunday" -> System.out.println("Weekends!");
+            default -> System.out.println("Invalid Day!");
         }
     }
 }
