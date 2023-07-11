@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-        int result = sum3(3,4);
+        int result = sum3(4, 30);
         System.out.println(result);
     }
     //sum with integer return type and 2 integer parameters
     static int sum3(int num1, int num2){
-        Scanner in = new Scanner(System.in);
-        return num1 + num2;
+        int sum = num1 + num2;
+        return sum;
     }
     //sum with integer return type
     static int sum2(){
