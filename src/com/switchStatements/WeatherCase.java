@@ -1,4 +1,4 @@
-package com.methods;
+package com.switchStatements;
 
 import java.util.Scanner;
 
