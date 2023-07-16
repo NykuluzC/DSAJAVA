@@ -7,4 +7,7 @@
 ## Fourth Day: July 2,2023
 ## Fifth Day: July 4,2023
 ## Sixth Day: July 6,2023
-## Seventh Day: July 16,2023
+## Seventh Day: July 14,2023
+## Eigth Day: July 15,2023
+## Ninth Day: July 16,2023
+
